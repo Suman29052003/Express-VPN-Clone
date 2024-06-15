@@ -169,6 +169,7 @@ width: 50%;
     .thirdSection .third-main-content{
         width: 65%;
         flex-direction: column;
+        padding-bottom: 60px;
 }
 
 .thirdSection .third-main-content h1{
@@ -192,6 +193,7 @@ width: 50%;
 .third-sub-main-content{
     width: 100%;
     display: flex;
+
 }
 
 .third-sub-main-content-left{
@@ -235,4 +237,45 @@ width: 50%;
     color: black;
 }
 
+/* Fourth Section */
 
+.fourth-section{
+    width: 100%;
+    min-height: 60vh;
+}
+.fourth-section h1{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 36px;
+}
+
+.fourth-section .fourth-main-content{
+    width: 65%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.fourth-main-content .card{
+    gap: 20px;
+    margin:40px;
+    letter-spacing: 1px;
+}
+
+.fourth-main-content .card h4{
+    font-size: 26px;
+}
+
+.fourth-main-content .card p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.fourth-main-content .card .card-img{
+
+}
+
+.fourth-main-content .card .card-img img{
+    width: 100%;
+}

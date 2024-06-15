@@ -26,11 +26,23 @@
     justify-content: center;
   }
 
+  .flex-coulmn{
+    flex-direction: column;
+  }
   .text-white{
     color: white;
+  }
+
+  .text-center{
+    text-align: center;
   }
 
 .scrolled {
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.underline{
+  text-decoration: underline;
+  color: #0f866c;
 }
