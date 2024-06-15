@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;  
+}
+
+.firstSection{
+    width: 100%;
+    height: 90vh;
+    background-image: url(https://xv.imgix.net/photos/xv/homepage-pingzhu-hero-bg-opt-v2-3ce3022343c7ad918545a6a2e01f36b5.jpg?auto=format%2Ccompress&cs=srgb&fit=max&w=1920&q=60&s=5b51197c7eb8a0fe25a50a76b2cbf643);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;  
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .logo img{
+    width: 250px;
+}
+
+nav .links {
+    display: flex;
+    gap: 23px;
+    width: 60%;
+}
+
+nav .links ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 23px;
+    text-wrap: nowrap;
+    cursor: pointer;
+}
+
+nav .links ul :hover{
+    color: #0f866c;
+}
+
+nav .links .resLinks{
+    display: none;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+nav .links button{
+    width:135px;
+    background: transparent;
+    border: 2px solid #0f866c;
+    padding: 12px 15px;
+    border-radius: 50px;
+    color: #0f866c;
+    text-wrap: nowrap;
+    transition:  0.2s ease-in-out, transform 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+nav .links button:hover{
+    background: #d4e300;
+    border: 2px solid #d4e300;
+    color: black;
+}
+
+.main-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 100px;
+}
+
+.main-content h1{
+    font-size: 110px;
+    text-align: center;
+    color: rgb(62, 62, 62);
+}
+
+.main-content .para{
+    font-size: 30px;
+    text-wrap: nowrap;
+    color: rgb(62, 62, 62);
+}
+
+.main-content button{
+    background-color: #0f866c;
+    border: 0;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: large;
+    transition:  0.2s ease-in-out, transform 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.main-content button:hover{
+    background: #d4e300;
+    color: black;
+}
+
+.main-content p{
+    font-size: 14px;
+}
+
+/* Second Section*/
+
+.secondSection{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondSection .second-main-content{
+    width: 65%;
+    height: 90%;
+    display: flex;
+   margin: 30px;
+}
+
+.secondSection .second-main-content .left{
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.second-main-content .left h1{
+font-size: 36px;
+}
+
+.second-main-content .left p{
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 1px;
+    }
+
+.secondSection .second-main-content .right{
+width: 50%;
+}
+
+/* Third Section */
+
+.thirdSection{
+    width: 100%;
+    min-height: 80vh;
+    background: #f9f8f2;
+    }
+    
+    .thirdSection .third-main-content{
+        width: 65%;
+        flex-direction: column;
+}
+
+.thirdSection .third-main-content h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+}
+
+.thirdSection .third-main-content .youtube-image{
+    width: 70%;
+    }
+    
+    .thirdSection .third-main-content .youtube-image img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50px;
+}
+
+.third-sub-main-content{
+    width: 100%;
+    display: flex;
+}
+
+.third-sub-main-content-left{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    gap: 20px;
+}
+
+.third-sub-main-content-left p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.third-sub-main-content-left p span{
+    font-weight: 600;
+}
+
+.third-sub-main-content-right{
+    width: 50%;
+
+}
+
+
+.third-sub-main-content-left button{
+    background-color: #0f866c;
+    border: 0;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: large;
+    transition:  0.2s ease-in-out, transform 0.5s ease-in-out;
+    cursor: pointer;
+    color: white;
+}
+
+.third-sub-main-content-left button:hover{
+    background: #d4e300;
+    color: black;
+}
+
+
