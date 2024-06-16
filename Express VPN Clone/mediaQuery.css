@@ -42,6 +42,10 @@
     .fourth-section .fourth-main-content{
         width: 80%;
     }
+
+    .sixth-section .tabs{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 
 @media (max-width:760px) {
@@ -102,4 +106,25 @@
         width: 90%;
         display: block;
     }
+
+    .sixth-section h1{
+        width: 100%;
+    }
+
+    .sixth-section .tabs{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .sixth-section .company-logos .logos img{
+        width: 16%;
+    }
+
+    .sixth-section .tabs .review-1 .app-store-review-1{
+        width: 80%;
+    }
+
+    .sixth-section .tabs .review-1 .play-store-review-1{
+        width: 80%;
+    }
+    
 }
