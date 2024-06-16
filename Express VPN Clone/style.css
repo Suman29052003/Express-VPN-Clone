@@ -498,3 +498,45 @@ grid-gap: 20px;
     width: 10%;
     aspect-ratio: 3/2;
 }
+
+/* seventh section */
+
+.seventh-section{
+    width: 100%;
+    min-height:100vh;
+    background: #f9f8f2;
+}
+
+.seventh-section h1{
+    padding-top: 60px;
+    font-size: 40px;
+}
+
+.seventh-section-main-content{
+    width: 65%;
+}
+
+.seventh-section-main-content .content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    grid-gap: 20px;
+}
+
+.seventh-section-main-content .content img{
+    width: 100%;
+}
+
+.seventh-section-main-content .content h1{
+    font-size: 36px;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+
+.seventh-section-main-content .content p{
+    font-size: 20px;
+}
+
+.seventh-section-main-content .content-2 {
+    flex-direction: row-reverse;
+}

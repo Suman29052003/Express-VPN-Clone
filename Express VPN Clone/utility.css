@@ -11,6 +11,10 @@
     font-style: normal;
   }
 
+  .w-full{
+  width: 100%;
+}
+
   .flex{
     display: flex;
   }
@@ -45,4 +49,5 @@
 .underline{
   text-decoration: underline;
   color: #0f866c;
+  cursor: pointer;
 }
