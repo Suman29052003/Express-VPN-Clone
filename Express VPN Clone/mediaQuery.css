@@ -38,6 +38,10 @@
     .secondSection .second-main-content .left{
         width: 90%;
     }
+
+    .fourth-section .fourth-main-content{
+        width: 80%;
+    }
 }
 
 @media (max-width:760px) {
@@ -92,5 +96,10 @@
 
     .third-sub-main-content-right{
         padding-top: 20px;
+    }
+
+    .fourth-section .fourth-main-content{
+        width: 90%;
+        display: block;
     }
 }

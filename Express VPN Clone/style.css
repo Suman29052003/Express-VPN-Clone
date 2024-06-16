@@ -265,6 +265,7 @@ width: 50%;
 
 .fourth-main-content .card h4{
     font-size: 26px;
+    text-align: center;
 }
 
 .fourth-main-content .card p{
@@ -272,10 +273,128 @@ width: 50%;
     font-size: 18px;
 }
 
-.fourth-main-content .card .card-img{
-
-}
-
 .fourth-main-content .card .card-img img{
     width: 100%;
 }
+
+/* Fifth Section */
+.fifthSection {
+    width: 100%;
+    height: 60vh;
+    background: url('https://xvdrop.imgix.net/map-55268416cd7ee847a41939f31605e2fa9977e841.png') center/cover no-repeat;
+    text-align: center;
+    overflow: hidden; /* Add this line */
+}
+
+.fifthSection h1 {
+    font-size: 38px;
+    padding-top: 50px;
+    font-weight: 800;
+}
+
+.slider {
+    width: 200%; /* Change from 100% to 200% */
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40%;
+}
+
+.slide-track {
+    display: flex;
+    animation: scroll 40s linear infinite;
+}
+
+.flags {
+    width: 120px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    flex-direction: column;
+    transition:  0.2s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.flags img {
+    aspect-ratio: 3/2;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-40%); }
+}
+/* Hover Effects */
+.flags.uk:hover::after {
+    content: "United Kingdom";
+    
+}
+
+.flags.japan:hover::after {
+    content: "JAPAN";
+}
+
+.flags.usa:hover::after {
+    content: "USA";
+}
+
+.flags.australia:hover::after {
+    content: "AUSTRALIA";
+}
+
+.flags.taiwan:hover::after {
+    content: "TAIWAN";
+}
+
+.flags.canada:hover::after {
+    content: "CANADA";
+}
+
+.flags.india:hover::after {
+    content: "INDIA";
+}
+
+.flags.france:hover::after {
+    content: "FRANCE";
+}
+
+.flags.south-korea:hover::after {
+    content: "SOUTH KOREA";
+}
+
+.flags.turkey:hover::after {
+    content: "TURKEY";
+}
+
+.flags.argentina:hover::after {
+    content: "ARGENTINA";
+}
+
+.flags.italy:hover::after {
+    content: "ITALY";
+}
+
+.fifthSection button{
+    background-color: transparent;
+    border: 2px solid #0f866c ;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: large;
+    transition:  0.2s ease-in-out, transform 0.5s ease-in-out;
+    cursor: pointer;
+    color: #0f866c;
+}
+
+.fifthSection button:hover{
+    background: #d4e300;
+    color: black;
+    border: 0;
+}
+

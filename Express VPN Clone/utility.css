@@ -20,13 +20,13 @@
     align-items: center;
   }
 
-  .flex-justify-center{
+  .flex-justify-center {
     display: flex;
-    align-items: center;
     justify-content: center;
-  }
+    align-items: center;
+}
 
-  .flex-coulmn{
+  .flex-column{
     flex-direction: column;
   }
   .text-white{
