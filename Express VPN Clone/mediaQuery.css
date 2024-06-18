@@ -46,6 +46,19 @@
     .sixth-section .tabs{
         grid-template-columns: repeat(2,1fr);
     }
+
+    .seventh-section-main-content .content{
+        display: flex;
+        grid-gap: 0;
+    }
+
+    .seventh-section-main-content .content img{
+        width: 80%;
+    }
+
+    .eighth-section-main-content{
+        width: 90%;
+    }
 }
 
 @media (max-width:760px) {
@@ -127,4 +140,16 @@
         width: 80%;
     }
     
+    .seventh-section-main-content{
+        width: 90%;
+    }
+
+    .eighth-section-main-content{
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+
+    .eighth-section .w-40{
+        width: 70%;
+    }
 }

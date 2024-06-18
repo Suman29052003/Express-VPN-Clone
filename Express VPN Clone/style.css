@@ -282,7 +282,7 @@ nav .links button:hover {
   background: url("https://xvdrop.imgix.net/map-55268416cd7ee847a41939f31605e2fa9977e841.png")
     center/cover no-repeat;
   text-align: center;
-  overflow: hidden; /* Add this line */
+  overflow: hidden; 
 }
 
 .fifthSection h1 {
@@ -292,7 +292,7 @@ nav .links button:hover {
 }
 
 .slider {
-  width: 200%; /* Change from 100% to 200% */
+  width: 200%;
   overflow: hidden;
   position: relative;
   display: flex;
@@ -505,6 +505,7 @@ grid-gap: 20px;
     width: 100%;
     min-height:100vh;
     background: #f9f8f2;
+    padding-bottom: 50px;
 }
 
 .seventh-section h1{
@@ -520,8 +521,10 @@ grid-gap: 20px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     place-items: center;
-    grid-gap: 20px;
+    grid-gap: 120px;
 }
+
+
 
 .seventh-section-main-content .content img{
     width: 100%;
@@ -530,13 +533,89 @@ grid-gap: 20px;
 .seventh-section-main-content .content h1{
     font-size: 36px;
     font-weight: 600;
-    padding: 10px 0px;
+    padding: 30px 0px;
 }
 
 .seventh-section-main-content .content p{
-    font-size: 20px;
+    font-size: 18px;
+    word-spacing: 1px;
+    line-height: 1.5;
+    text-align: left;
 }
 
-.seventh-section-main-content .content-2 {
-    flex-direction: row-reverse;
+.seventh-section button{
+  margin: 50px;
+background-color: #0f866c;
+border: 0;
+padding: 15px 25px;
+border-radius: 50px;
+font-weight: 600;
+font-size: large;
+transition: 0.2s ease-in-out, transform 0.5s ease-in-out;
+cursor: pointer;
+color: white;
+
+}
+
+.seventh-section button:hover{
+  background: #d4e300;
+color: black;
+}
+
+/* Eighth Section */
+
+.eighth-section{
+  min-height: 100vh;
+  /* justify-content: center; */
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.eighth-section h1{
+  font-size: 36px;
+}
+
+.eighth-section p{
+  padding:  20px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.eighth-section-main-content{
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 30px;
+  padding-top: 60px;
+}
+
+.eighth-section-card{
+  width: 100%;
+  box-shadow: 0 9px 30px rgba(0, 0, 0, 0.1);
+  /* border: 2px solid black; */
+  min-height: 60vh;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.eighth-section-card figure img{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  padding: 10px 0;
+}
+
+.eighth-section-card h5{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.eighth-section-card p{
+  text-align: center;
+  width: 90%;
 }
