@@ -619,3 +619,52 @@ color: black;
   text-align: center;
   width: 90%;
 }
+
+.ninth-section{
+  min-height: 100vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #f9f8f2;
+}
+
+.ninth-section-header{
+  gap: 50px;
+}
+
+.ninth-section .ninth-section-header .header{
+  text-align: left;
+
+}
+
+.ninth-section .ninth-section-header .header h1{
+  font-size: 26px;
+}
+
+.ninth-section .ninth-section-header .header-1 h1{
+  font-size: 30px;
+}
+
+.ninth-section .ninth-section-header .header p{
+  font-size: 18px;
+  line-height: 1.5;
+  padding-top: 10px;
+}
+
+.ninth-main-content{
+  width: 65%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.ninth-main-content .vpn-card-main .vpn-card{
+  width: 80%;
+  height: auto;
+}
+
+.ninth-main-content .vpn-card-main .vpn-card .vpn-card-top{
+  height: ;
+  background: #000;
+}
+.ninth-main-content .vpn-card-main .vpn-card .vpn-card-bottom{
+  background: #696666;
+}
